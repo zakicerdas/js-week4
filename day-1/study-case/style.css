@@ -1,0 +1,20 @@
+#area {
+      width: 200px;
+      height: 120px;
+      background-color: lightgray;
+      border: 2px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+}
+#Jumpscare {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;    
+      z-index: 9999;
+}

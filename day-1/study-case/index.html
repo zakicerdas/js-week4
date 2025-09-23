@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>## A. Menggunakan Atribut HTML (inline events) — 5 soal</h1>
+
+    <button onclick="alert('Halo!')">click</button>
+
+    <img src="/day-1/assets/alice.jpg" onclick="this.src='/day-1/assets/alice2.jpg'" alt="gambar">
+
+    <p ondblclick="this.innerText='Double clicked!'">Klik dua kali di sini</p>
+
+    <input type="text" onfocus="this.placeholder='tulis sesuatu disini..'">
+
+    <button onmousedown="innerText='mouse down'" onmouseup="innerText='mouse up'"></button>
+
+    <hr>
+    
+<h1>## B. Menggunakan JavaScript langsung (assigning event properties) — 5 soal</h1>
+
+<button id="btn">Tadaima</button>
+<p id="msg"></p>
+
+<div id="area">sini</div>
+
+<input id="input" type="text">
+<span id="show"></span>
+
+<button id="btn2">klik</button>
+
+<button id="btn3">klik</button>
+
+<br>
+
+<h1>## C. Menggunakan addEventListener()— 5 soal</h1>
+
+ <button id="btn4">Klik Saya</button>
+
+ <form id="myForm">
+      Nama: <input id="input2" type="text" required />
+    <button type="submit">Kirim</button>
+  </form>
+
+  <button id="btn5">klik Saya</button>
+  <button id="removeBtn">remove handler</button>
+
+   <ul id="myList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+<button id="once">tekan ini untuk terakhir kalinya</button>
+ <img id="Jumpscare" src="/day-1/assets/jumpscare.jpg" alt="Gambar Fullscreen">
+    <script src="index.js"></script>
+</body> 
+</html>
