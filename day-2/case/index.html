@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>## B. Validasi dengan HTML (atribut bawaan) — 10 soal</h1>
+
+    <!--no.6-->
+<form id="f1">
+    <label>6. Nama:</label>
+    <input type="text" required>
+</form>
+
+    <!--no.7-->
+<form id="f2">
+    <label>7. umur:</label>
+    <input type="number" min="18" max="60">
+</form>
+
+    <!--no.8-->
+<form id="f3">
+    <label>8. password:</label>
+    <input type="password" minlength="8">
+</form>
+    
+    <!--no.9-->
+<form id="f4">
+    <label>9. email:</label>
+    <input type="email">
+</form>
+
+    <!--no.10-->
+<form id="f5">
+    <label>10. nomor telp:</label>
+    <input type="text" pattern="[0-9]{10,12}">
+</form>
+
+    <!--no.11-->
+<form id="f6">
+    <label>11. username:</label>
+    <input type="text" pattern="[a-z]+">
+</form>
+  
+    <!--no.12-->
+ <form id="f7">
+    <label>12. kode pos:</label>
+    <input type="text" pattern="[0-9]{5}">
+</form>
+  
+    <!--no.13-->
+ <form id="f8">
+    <label>13. tanggal lahir:</label>
+    <input type="date" max="2019-12-31">
+</form>
+
+    <!--no.14-->
+ <form id="f9">
+    <label>14. link:</label>
+    <input type="url">
+</form>
+
+    <!--no.14-->
+ <form id="f10">
+    <label>15. angka genap:</label>
+    <input type="text" pattern="(0|2|4|6|8)$">
+</form>
+<br>
+<h1>## C. Validasi dengan JavaScript — 15 soal</h1>
+
+<form id="f11">
+    <label>16. Nama:</label>
+    <input id="inputNama" type="text">
+</form>
+
+<form id="f12">
+    <label>17. Umur:</label>
+    <input id="inputUmur" type="number">
+</form>
+
+<form id="f13">
+    <label>18. Password:</label>
+    <input id="inputPass" type="password">
+</form>
+
+<form id="f14">
+    <label>19. Email:</label>
+    <input id="inputEmail" type="email">
+</form>
+
+<form id="f15">
+    <label>20. Telepon:</label>
+    <input id="inputNoTelp" type="text">
+</form>
+
+<form id="f16">
+    <label>21. Validasi password:</label>
+    <input type="password" id="Pass1">
+    <br>
+    <label>confirm:</label>
+    <input type="password" id="pass2">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="f17">
+    <label>22.  validasi tanggal lahir:</label>
+    <input id="dateInput" type="date">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="f18">
+    <label>23. validasi username</label>
+    <input id="inputUsername" type="text">
+</form>
+
+<form id="f19">
+    <p>24. login form:</p>
+    <label>username:</label>
+    <input id="u" type="text">
+    <br>
+    <label>password:</label>
+    <input id="p" type="password">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="f20">
+    <label>25. checkbox:</label>
+    <br>
+    <input id="box" type="checkbox">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="f21">
+    <label>26. cek angka genap:</label>
+    <br>
+    <input id="genap" type="number">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="f22">
+    <label>27. komentar</label>
+    <br>
+    <input id="komentar" type="textarea">
+    <br>
+    <button>check</button>
+
+ <form id="f23">
+    <label>28. Pilih warna:</label>
+    <br>
+      <select id="colorSelect">
+             <option value="">Pilih</option>
+        <option value="merah">Merah</option>
+        <option value="biru">Biru</option>
+        <option value="hijau">Hijau</option>
+      </select>
+    <br>
+    <button>check</button>
+  </form>
+
+<form id="f24">
+    <label>29.upload gambar:</label>
+    <br>
+    <input type="file" id="inputFile">
+    <br>
+    <button>check</button>
+</form>
+
+<form id="30">
+    <p>30. daftar form:</p>
+    <label>nama:</label>
+    <input id="user" type="text">
+    <br>
+    <label>email:</label>
+    <input id="Email" type="email">
+    <br>
+    <label>password:</label>
+    <input id="pass" type="password">
+    <br>
+    <button>check</button>
+</form>
+<script src="index.js">
+</script>
+</body>
+</html>
