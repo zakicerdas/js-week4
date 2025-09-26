@@ -1,0 +1,72 @@
+ body {
+     font-family: Arial, sans-serif; 
+     background:#f4f7fa; 
+     padding:20px; 
+    }
+    h2 { 
+        text-align:center; 
+        margin-bottom:20px; 
+    }
+    .form { 
+        display:flex; 
+        gap:10px; 
+        justify-content:center; 
+        margin-bottom:20px; 
+        flex-wrap:wrap; 
+    }
+    input, select, button {
+      padding:10px; 
+      border:1px solid #ccc; 
+      border-radius:6px; 
+      font-size:14px;
+    }
+    button { 
+        background:#0ea5a4; 
+        color:white; 
+        cursor:pointer; 
+    }
+    button:hover { 
+        background:#0d9488; 
+    }
+    ul { 
+        list-style:none; 
+        padding:0;
+        max-width:600px; 
+        margin:auto; 
+    }
+    li { 
+        display:flex; 
+        justify-content:space-between; 
+        align-items:center;
+         padding:10px; 
+         border-radius:6px; 
+         margin-bottom:8px; color:#111; 
+        }
+    li .info { 
+        flex:1; 
+    }
+    li .deadline { 
+        font-size:12px; 
+        color:#374151; 
+        display:block; 
+    }
+    .high{
+        background:#fecaca;
+    } 
+    .medium{
+        background:#fed7aa;
+    } 
+    .low{
+        background:#cffafe;
+    }
+    .delete-btn { 
+        background:#ef4444; 
+        color:white; 
+        border:none; 
+        padding:6px 10px;  
+        border-radius:6px; 
+        cursor:pointer; 
+    }
+    .delete-btn:hover { 
+        background:#dc2626; 
+    }
