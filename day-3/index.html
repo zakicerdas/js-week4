@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--soal 6 & 7-->
+<form id="f1">
+    <label>6. username:</label>
+    <input type="text" id="inputName" placeholder="tulis nama">
+    <button onclick="saveUsername()">simpan username</button>
+    <br>
+    <label>7. Tampilkan user:</label>
+    <br>
+    <button type="button" onclick="tampilkanUser()">Tampilkan</button>
+</form>
+
+    <!--soal 8 & 9-->
+ <form id="f2" onsubmit="login()">
+    <label>8. login form:</label>
+    <br>
+    <label>username</label>
+    <input type="text" id="loginUser" placeholder="Username"><br>
+    <label>password</label>
+    <input type="password" id="loginPass" placeholder="Password"><br>
+    <button type="submit">Login</button>
+    <br>
+    <label>9. logout:</label>
+    <br>
+    <button type="button" onclick="logout()">logout</button>
+    </form>
+
+    <!--soal 10-->
+<form id="f3">
+    <label>10. counter</label>
+    <button type="button" onclick="counterPlus()">☭</button>
+<br>
+<p id="count"></p>
+</form>
+
+    <!--soal 11 & 12-->
+<form id="f4">
+    <label>11-12. theme select</label>
+    <select id="themeSelect" onchange="changeTheme()">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+</form>
+
+<!--soal 13-15-->
+<form id="f5">
+<label>13-15. tambah list & hapus list</label>
+<br>
+<input type="text" id="waifu" placeholder="Nama waifu">
+<button type="button" onclick="addWaifu()">Tambah</button>
+<br>
+<ul id="list"></ul>
+<br>
+ <button type="button" onclick="hapusSemua()">Hapus</button>
+</form>
+
+<form id="f6">
+    <label>16-17.</label>
+    <br>
+    <input type="text" id="nama" placeholder="Nama">
+    <br>
+    <input type="number" id="umur" placeholder="Umur">
+    <br>
+    <input type="email" id="email" placeholder="Email">
+    <br>
+    <button type="submit">Simpan Biodata</button>
+</form>
+<div class="card">
+    <h3>Biodata Tersimpan:</h3>
+    <p id="showNama"></p>
+    <p id="showUmur"></p>
+    <p id="showEmail"></p>
+  </div>
+
+<script src="main.js"></script>
+</body>
+</html>
